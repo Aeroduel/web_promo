@@ -26,6 +26,13 @@ export default function Home() {
   return (
     <>
       <HeroSection />
+      {/*
+      Sections with z-1 (or higher) will not have the background gradient.
+      Content without z-1 must set internal content to have z-1 to appear
+       above the gradient while still putting the gradient between the
+       section background and section foreground.
+       The background gradient component is in the HeroSection.
+       */}
       <div className="z-1">
         <AboutSection />
         <FeaturesSection />
