@@ -5,7 +5,7 @@
     --background-secondary: #14a3bd;
     --foreground-primary: #99cfff;
     --foreground-secondary: #001a40;
-    --accent-primary: #9b1414;
+    --accent-primary: #b60c0c;
     --accent-secondary: #d5533c;
     --accent-tertiary: #cba655;
 }
@@ -110,11 +110,11 @@ section p {
 }
 
 .title {
-    @apply text-7xl font-bold text-center mb-1;
+    @apply text-7xl font-thin text-center mb-1;
 }
 
 .subtitle {
-    @apply font-semibold text-center mb-4;
+    @apply text-center mb-4;
 }
 
 .btn {

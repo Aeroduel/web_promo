@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Logo from "@/../public/Aeroduel Placeholder.png"
+import Logo from "../../public/logo_square.png"
 import Image from "next/image";
 
 const geistSans = Geist({
