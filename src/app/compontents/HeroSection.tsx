@@ -12,10 +12,9 @@ export function HeroSection() {
           <Image src={Logo} alt="O" className="inline-block h-[1.6em] w-auto mb-3" />
           DUEL
         </h1>
-        <p className="subtitle">
+        <p className="subtitle text-gold">
           The future of RC aerial combat. Real FPV immersion. Real engineering.
         </p>
-        <button className="btn font-bold">Learn More</button>
       </div>
     </section>
   );

@@ -1,7 +1,7 @@
 export const AboutSection = () => {
   return (
     <section id="about" className="bg-background-2 text-foreground-2">
-      <h2 className="text-gold text-shadow-lg">What is Aeroduel?</h2>
+      <h2 className="text-sky-200 text-shadow-lg">What is Aeroduel?</h2>
       <p>
         Aeroduel merges cutting-edge software engineering with RC model aircraft
         to create the an advanced aerial combat system for RC aircraft.

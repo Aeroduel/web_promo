@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 
 function Header() {
   return (
-    <nav className="fixed top-0 w-full bg-slate-950/80 backdrop-blur-md z-50 border-b border-slate-800">
+    <nav className="fixed top-0 w-full bg-slate-950/80 backdrop-blur-md z-50 border-b border-slate-800 text-skyblue">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center gap-2">
@@ -56,7 +56,7 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} antialiased`}
     >
     <Header />
-    <main className="flex justify-center flex-col bg-background pt-14">
+    <main className="flex justify-center flex-col text-foreground bg-background pt-14">
       {children}
     </main>
     <Footer />
