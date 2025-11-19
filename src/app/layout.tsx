@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Logo from "../../public/logo_square.png"
+import Logo from "../../public/aero-duel-jet-left-logo.svg"
 import Image from "next/image";
 
 const geistSans = Geist({
@@ -23,12 +23,12 @@ function Header() {
   return (
     <nav className="fixed top-0 w-full bg-slate-950/80 backdrop-blur-md z-50 border-b border-slate-800 text-skyblue">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
-          <div className="flex items-center gap-2">
-            <Image className="w-10 h-10" src={Logo} alt="Logo"/>
-            <span className="text-xl font-bold">AERODUEL</span>
+        <div className="flex items-center h-16">
+          <div className="flex-shrink-0">
+            <Image src={Logo} alt="Logo" height={56} className="block" />
           </div>
-          <div className="hidden md:flex gap-8">
+
+          <div className="hidden md:flex gap-8 ml-auto">
             <a href="#about" className="hover:text-teal transition">About</a>
             <a href="#features" className="hover:text-teal transition">Features</a>
             <a href="#tech-stack" className="hover:text-teal transition">Tech Stack</a>
