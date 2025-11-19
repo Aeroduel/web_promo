@@ -1,6 +1,6 @@
-import { HeroSection } from "@/app/compontents/HeroSection";
-import { AboutSection } from "@/app/compontents/AboutSection";
-import { DownloadSection } from "@/app/compontents/DownloadSection";
+import { HeroSection } from "@/app/components/HeroSection";
+import { AboutSection } from "@/app/components/AboutSection";
+import { DownloadSection } from "@/app/components/DownloadSection";
 
 function FeaturesSection() {
   return null;
